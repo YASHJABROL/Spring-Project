@@ -36,6 +36,7 @@ public class DoctorController {
     {
         doctorDbHashMap.remove(id);
         return "Doctor deleted Successfully";
+
     }
     @PutMapping("/update/{id}")
     public String updateDoctor(@PathVariable int id,@RequestBody Doctor doctor)
