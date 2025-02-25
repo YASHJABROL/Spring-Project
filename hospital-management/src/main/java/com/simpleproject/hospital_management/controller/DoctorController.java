@@ -10,6 +10,7 @@ public class DoctorController {
 
     HashMap<Integer, Doctor> doctorDbHashMap = new HashMap<>();
 
+
     @PostMapping("/save")
     public String saveDoctor(@RequestBody Doctor doctor)
     {
